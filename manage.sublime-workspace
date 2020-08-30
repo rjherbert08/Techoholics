@@ -1,0 +1,310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"ani",
+				"animation-name\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"textdec",
+				"text-decoration\tproperty"
+			],
+			[
+				"backgroundc",
+				"background-color\tproperty"
+			],
+			[
+				"animation-it",
+				"animation-iteration-count\tproperty"
+			],
+			[
+				"Animation",
+				"animation-delay\tproperty"
+			],
+			[
+				"animation",
+				"animation-duration\tproperty"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"bac",
+				"background-position\tproperty"
+			],
+			[
+				"get_",
+				"get_object_or_404"
+			],
+			[
+				"re",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"SCSS",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/base/_base.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/components/_button.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/base/_animations.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/layout/_header.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/base/_typography.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/package.json",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/css/style.css",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/abstracts/_variables.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/pages/_home.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/abstracts/_functions.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/abstracts/_mixins.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/base/animations.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/sass/base/_utilities.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/AdvancedCSS/Course/Portfolio/package-lock.json",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/Advanced CSS & Sass Course/advanced-css-course-master/Software Engineer Portfolio/index.html",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/Advanced CSS & Sass Course/advanced-css-course-master/Software Engineer Portfolio/css/style.css",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/Advanced CSS & Sass Course/advanced-css-course-master/Natours/final-after-S06/sass/main.scss",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/Advanced CSS & Sass Course/advanced-css-course-master/Software Engineer Portfolio/style.css",
+		"/C/Users/Robbie/Documents/Robert/SoftwareDeveloper/Advanced CSS & Sass Course/advanced-css-course-master/SoftwareEngineerPortfolio",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/about.html",
+		"/C/Users/Robbie/Desktop/django_project/django_project/settings.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/base.html",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/home.html",
+		"/C/Users/Robbie/Desktop/django_project/Procfile",
+		"/C/Users/Robbie/Desktop/django_project/requirements.txt",
+		"/C/Users/Robbie/Desktop/django_project/.gitignore",
+		"/C/Users/Robbie/Desktop/django_project/posts.json",
+		"/C/Users/Robbie/Desktop/django_project/runtime.txt",
+		"/C/Users/Robbie/Desktop/django_project/users/models.py",
+		"/C/Users/Robbie/Desktop/django_project/manage.py",
+		"/C/Users/Robbie/Desktop/django_project/users/views.py",
+		"/C/Users/Robbie/Desktop/django_project/users/forms.py",
+		"/C/Users/Robbie/Desktop/django_project/users/admin.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/admin.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/models.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/urls.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/views.py",
+		"/C/Users/Robbie/Desktop/django_project/django_project/urls.py",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/login.html",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/password_reset_complete.html",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/password_reset_done.html",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/password_reset_confirm.html",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/password_reset.html",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/user_post.html",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/post_detail.html",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/logout.html",
+		"/C/Users/Robbie/Desktop/django_project/users/apps.py",
+		"/C/Users/Robbie/Desktop/django_project/django_project/__init__.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/tests.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/post_form.html",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/post_confirm_delete.html",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/profile.html",
+		"/C/Users/Robbie/Desktop/django_project/media/default.jpg",
+		"/C/Users/Robbie/Desktop/django_project/django_project/wsgi.py",
+		"/C/Users/Robbie/Desktop/django_project/users/templates/users/register.html",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates/blog/post_confirm_delete",
+		"/C/Users/Robbie/Desktop/django_project/users/signals.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/migrations/0001_initial.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/static/blog",
+		"/C/Users/Robbie/Desktop/django_project/blog/static/blog/main.css",
+		"/C/Users/Robbie/Desktop/django_project/blog/apps.py",
+		"/C/Users/Robbie/Desktop/django_project/blog/templates",
+		"/C/Users/Robbie/Desktop/django_project/django_project/asgi.py",
+		"/C/Users/Robbie/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Robbie/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Robbie/AppData/Roaming/Sublime Text 3/Packages/User/Python3.5.sublime-build"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python3.5.sublime-build",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"SCSS",
+				"css\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

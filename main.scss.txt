@@ -1,0 +1,213 @@
+/*
+COLORS:
+Sky Blue: #87ceeb
+Light Sky Blue: #87CEFA
+Dodger Blue: #1E90FF
+Cornflower Blue: #6495ED
+Steel Blue: #4682B4
+Midnight Blue: #191970
+*/
+
+/* Universal selector*/
+$color-primary: #4682B4;
+$color-primary-light: #87ceeb;
+$color-primary-dark: #191970;
+$color-grey-dark: #777;
+$color-white: #fff
+$color-black: #000
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;        /*  1 rem = 10px at default instead of 16px */
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 95vh; /* 95% of the viewport */
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)),
+    url(../Photos/header.gif);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path:polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+
+    & __logo-box{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo{
+        height: 15rem;
+    }
+
+    &__text-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+.heading-primary{
+    color: $color-white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;  /* to fix shaking in animation */
+    margin-bottom: 6rem;
+
+    &--main{
+        display: block;
+        font-size: 7rem;
+        font-weight: 400;
+        letter-spacing: 1rem;
+
+        animation-name: moveInLeft;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        /*
+        animation-delay: 3s;
+        animation-iteration-count: 3;
+        */
+    }
+
+    &--sub{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.5rem;
+        text-align: center;
+
+        animation-name: moveInRight;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+    }
+}
+
+
+@keyframes moveInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80%{
+        transform: translateX(2rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80%{
+        transform: translateX(-2rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom{
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    80%{
+        transform: translateY(1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.btn{
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+        &::after{
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        } 
+    }
+
+    &:active{
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+    }
+
+    &--white{
+        background-color: $color-white;
+        color: $color-grey-dark;
+
+        &::after{
+            background-color: $color-white;
+        }
+    }
+
+    &::after{
+        content: "";
+        display: inline-block;
+        height:100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    &--animated{
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+    }
+}

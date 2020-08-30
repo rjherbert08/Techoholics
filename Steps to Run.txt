@@ -1,0 +1,32 @@
+Location:
+Desktop\django_project
+
+See the Changes:
+git status
+
+To Add Changes:
+git add -A
+
+To Commit Changes
+git commit -m "comment on what changed"
+
+To Push to Heroku
+git push heroku master
+
+To Get Command Line to Open Heroku App
+heroku open
+
+
+
+-A full-stack tech blog website in Python and Django with functionalities of multi-users and authorizations, user posts, user comments
+Developed the front-end and back-end using Django’s Model-View-Template design pattern
+Framework: HTML5/CSS3, Bootstrap4, JavaScript, Python, Django
+
+The user can create posts, edit/update them and delete them. The user also has a choice to either pulish 
+their posts or keep them as drafts which can then later be published. The user can also post comments on 
+each other's posts and have functionality to either approve or not approve comments. This project is made 
+almost according to the internship task as described(some features may differ).
+
+The blog has user registration functionality and latest posts are displayed. This is just like blog/social
+ media site we use in daily life.
+
